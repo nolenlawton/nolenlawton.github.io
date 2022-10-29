@@ -1,0 +1,22 @@
+body {
+  background-color: #456;
+  color: #dddddd;
+  font-family: arial, helvetica, sans-serif;
+  margin: 15% 15%;
+}
+
+.PE-header {
+  text-align: center;
+  text-transform: Uppercase;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  background-color: rgba(0,0,0, 0.3);
+}
+
+.education-header {
+  text-align: center;
+  text-transform: Uppercase;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  background-color: rgba(0,0,0, 0.3);
+}
