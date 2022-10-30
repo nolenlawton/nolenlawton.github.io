@@ -37,14 +37,14 @@ body {
   left: 0;
   right: ;
   top: 0;
-  bottom: -1165px;
+  bottom: -5000px;
   border-radius: 50px;
-  animation: fly 20s infinite;
+  animation: fly 60s infinite;
 }
 
 @keyframes fly {
   50% {
-    transform: translateY(-770px);
+    transform: translateY(-3000px);
   }
     
 #wrapper {
