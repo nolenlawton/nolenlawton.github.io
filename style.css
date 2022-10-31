@@ -44,6 +44,13 @@ section h2, h3, h4, h5, h6, h7, h8 {
   position: relative;
 }
 
+section ul {
+  font-size: 1rem;
+  font-family: sans-serif;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
 .parallax {
    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/denim.png);
   background-repeat:repeat;
@@ -108,5 +115,6 @@ section h2, h3, h4, h5, h6, h7, h8 {
     margin-right:auto;
     width: 960px;
 }
+  
   
   
