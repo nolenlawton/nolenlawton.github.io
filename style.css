@@ -1,12 +1,68 @@
 body {
-  background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/denim.png);
-  background-repeat:repeat;
-  color: #dddddd;
-  font-family: arial, helvetica, sans-serif;
-   margin-left:150px;
-    margin-right:150px;
-
+   margin:0
 }
+
+main {
+  height: 150vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+}
+
+section{
+  transform-style: preserve-3d
+  position: relative;
+  height: ;
+  display: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.no-parallax {
+   background-image: url(https://images.pexels.com/photos/753312/pexels-photo-753312.jpeg?cs=srgb&dl=pexels-julius-silver-753312.jpg&fm=jpg);
+  background-repeat: no-repeat;
+  height: 150vh;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+section h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: sans-serif;
+  color: white;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+section h2, h3, h4, h5, h6, h7, h8 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: sans-serif;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.parallax {
+   background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/denim.png);
+  background-repeat:repeat;
+  background: cover;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+
+
+.title1 {
+  text-align: center;
+  text-transform: Uppercase;
+  border-top: 1px solid;
+  background: linear-gradient(to bottom, rgba(0,0, 1, 1), rgba(0, 0, 1, 0.3));
+  background-size: cover; 
+}
+
+
 
 .PE-header {
   text-align: center;
@@ -31,20 +87,20 @@ body {
 .bird {
   height: 50px;
   width: 100px;
-  background-color: rgba(0, 179, 179, 0.5);
-  position: absolute;
+  background-color: rgba(0, 179, 179, 1);
+  position: center;
   margin: auto;
   left: 0;
   right: ;
   top: 0;
   bottom: -5000px;
   border-radius: 50px;
-  animation: fly 60s infinite;
+  animation: fly 3s infinite;
 }
 
 @keyframes fly {
   50% {
-    transform: translateY(-3000px);
+    transform: translateY(-40px);
   }
     
 #wrapper {
@@ -52,4 +108,4 @@ body {
     margin-right:auto;
     width: 960px;
 }
-    
+  
